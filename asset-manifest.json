@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/healthcare-appointment-booking/static/css/main.ac7298b6.css",
+    "main.js": "/healthcare-appointment-booking/static/js/main.66bd8eff.js",
+    "static/js/453.96453769.chunk.js": "/healthcare-appointment-booking/static/js/453.96453769.chunk.js",
+    "index.html": "/healthcare-appointment-booking/index.html",
+    "main.ac7298b6.css.map": "/healthcare-appointment-booking/static/css/main.ac7298b6.css.map",
+    "main.66bd8eff.js.map": "/healthcare-appointment-booking/static/js/main.66bd8eff.js.map",
+    "453.96453769.chunk.js.map": "/healthcare-appointment-booking/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac7298b6.css",
+    "static/js/main.66bd8eff.js"
+  ]
+}
