@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bg-container{
+  padding:20px;
+  height:100vh;
+}
+
+.heading{
+  font-family:"Roboto";
+  font-size:40px;
+  font-weight:600;
+}
+
+@media screen and (min-width:768px){
+  heading{
+    font-size:50px;
+  }
+}
+
+.search-input{
+  border:1px solid blue;
+  padding:5px 10px;
+  margin-top:20px;
+  margin-bottom:20px;
+  outline:none;
+  border-radius:10px;
+  font-size:24px;
+  font-weight:bold;
+  background-color:lightgray;
+}
+
+.doctors-container{
+  display:flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  margin-top:30px;
+}
+
+.doctor-card{
+  padding:8px 10px;
+  margin:20px;
+  border:2px solid grey;
+  border-radius:30px;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  width:25%;
+  cursor:pointer;
+}
+
+.doctor-thumbnail{
+  height:150px;
+}
+
+.doctor-name{
+  font-family:"Roboto";
+  font-size:28px;
+  font-weight:800;
+}
+
+.doctor-specialization{
+    font-family:"Roboto";
+  font-size:20px;
+  font-weight:600;
+}
+
+.doctor-availability{
+  font-family:"Roboto";
+  font-size:20px;
+  font-weight:bold;
+}
+
+.doctor-details-container{
+  display:flex;
+flex-direction:column;
+align-items:start;
+padding:30px;
+margin:10px;
+}
+
+.imag-personal-dat{
+  display:flex;
+  align-items:center;
+}
+
+.key-data{
+  margin-left:30px;
+}
+
+
+
+@media screen and (min-width:768px) {
+  .doctor-details-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+}
+
+.form-container{
+  display:flex;
+  flex-direction:column;
+  align-items:start;
+  border:1px solid gray;
+  border-radius:20px;
+  padding: 20px 10px;
+  justify-content:space-between;
+  height:35vh;
+  margin-top:30px;
+}
+
+.form-card{
+  display: flex;
+  flex-direction:column;
+}
+
+button{
+  background-color:blue;
+  color:#ffffff;
+  padding:5px 7px;
+  margin-top:20px;
+  border:none;
+  border-radius:10px;
+  outline:none;
+  cursor: pointer;
+  font-family:"Roboto";
+}
+
+.appointment-text{
+  color:green;
+  font-weight:bold;
+  font-family:"Roboto";
+  font-size:40px;
+}
+
+.full{
+  color:Red;
+  text-decoration:line-through;
+}
+
+.leave{
+  color:yellow;
+}
+
+.available{
+  color:green;
+}
